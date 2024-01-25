@@ -1,12 +1,20 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import userPage from './components/userPage.vue'
+import { createWebHistory, createRouter } from "vue-router";
+import userPage from "./components/userPage.vue";
+import firstPage from "./components/firstPage.vue";
+const routes = [
+  {
+    path: "/user/:Id/:Net/:Time",
+    component: userPage,
+  },
+  {
+    path:"/",
+    component:firstPage,
+  }
+];
 
-export default createRouter({
+const router = createRouter({
   history: createWebHistory(),
-  routes: [
-    {
-      path: '/',
-      component: userPage,
-    }
-  ]
-})
+  routes,
+});
+
+export default router;
