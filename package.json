@@ -11,7 +11,12 @@
     "@vue/compiler-dom": "^3.4.13",
     "bootstrap-vue-3": "^0.5.1",
     "core-js": "^3.8.3",
+<<<<<<< HEAD
     "vue-router": "^4.0.13"
+=======
+    "vue-router": "^4.0.13",
+    "vue-template-compiler": "^2.7.16"
+>>>>>>> cb6a3941ac8c5dd67c7760dced51d2b55f2b148a
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
