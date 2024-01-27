@@ -1,0 +1,50 @@
+.HeaderStyle{
+    height:10%;
+    background-color:red;
+}
+.MainStyle{
+    height:60%;
+    background-color:green;
+    padding:20px 0;
+}
+.MainFlex{
+    display:flex;
+    width:100%;
+    height:100%;
+    align-items:center;
+    flex-direction: column;
+}
+form > div{
+    height:40%;
+}
+div > input,select,button{
+    width:212px;
+    height:28px;
+    padding:12px;
+    border: none;
+    box-sizing:content-box;
+    margin-left: 10px;
+}
+.SubmitStyle{
+    display:flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+}
+div > p{
+    text-align: center;
+}
+.intro_font{
+    color:red;
+    font-size: 40px;
+}
+ @media all and (max-width: 1023px) {
+    .SubmitStyle{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    form > div{
+        height:20%
+    }
+}

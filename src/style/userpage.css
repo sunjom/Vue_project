@@ -1,0 +1,119 @@
+body{
+    width:98vw;
+    height:100vh;
+    margin:0;
+    text-align: center;
+}
+header{
+    height:10%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.start{
+    width:65%;
+    height:100%;
+    display: inline-block;
+}
+.logo{
+    
+    display: inline-block;
+}
+.intro{
+    vertical-align: top;
+    display: inline-block;
+    margin-left:10px;
+}
+.account{
+    width:10%;
+    height:40%;
+    border:1px solid black;
+    border-radius:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_id{
+    width:170px;
+    height:34px;
+}
+.select_day, .select_net{
+    height:40px;
+}
+.select_day{
+    width:80px
+}
+.select_net{
+    width:100px;
+}
+header > form >*{
+    margin-left: 10px;
+}
+main{
+    width:auto;
+    height:100%;
+    margin-top:20px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.block{
+    width:20%;
+    height:20%;
+
+}
+.charactor{
+    width:80%;
+    height:20%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.charactor_img{
+    width:100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blue;
+}
+.charactor_bar{
+    display:flex;
+    flex-direction: column;
+    width:15%;
+    height:auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.level , .coin{
+    position:absolute;
+}
+.level{
+    bottom:10px;
+    right: 80px;
+}
+.coin{
+    bottom:10px;
+    right: 15px;
+}
+.side{
+    width:20%;
+    height:100%;   
+}
+.Score_Level{
+    width:80%;
+    height:30%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.intro_board{
+    width:30%;
+    height:20%;
+    border:1px solid black;
+    border-radius: 10% 10% 0 0;
+}
+.Big_board{
+    width:30%;
+    height:80%;
+}
